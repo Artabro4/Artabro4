@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# No indexar archivos de assets ni worker
+Disallow: /assets/
+Disallow: /worker.js
+
+Sitemap: https://alojamientocastrodeuntia.com/sitemap.xml
