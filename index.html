@@ -153,6 +153,17 @@
 	}
 	#reservaForm .req { color: #e07b39; font-style: normal; }
 	#reservaForm .field { margin-bottom: 1.2em; }
+
+	/* Galería: una imagen completa por vez en móvil */
+	@media (max-width: 736px) {
+		.gallery.style2 article {
+			width: 92vw !important;
+			max-width: 92vw !important;
+		}
+		.gallery.style2 article .image img {
+			height: 220px !important;
+		}
+	}
 </style>
 <link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
@@ -745,7 +756,7 @@
 					<a href="avisolegal.html" data-i18n="footer_legal">Aviso legal</a>&emsp;&emsp;
 					<a href="politicaprivacidad.html" data-i18n="footer_privacy">Política de privacidad</a>
 				</h4>
-				<p>&copy; 2026 Alojamiento Castro de Untia. <span style="font-size:0.7em; opacity:0.45;">Design: <a href="https://html5up.net" tabindex="-1">HTML5 UP</a></span></p>
+				<p>&copy; 2026 Alojamiento Castro de Untia.</p>
 			</div>
 		</footer>
 	</div>
